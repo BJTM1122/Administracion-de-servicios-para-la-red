@@ -77,7 +77,7 @@ ret = rrdtool.graph( "DatagramasEntregados.png",
 c = canvas.Canvas('Contabilidad.pdf')
 c.drawString(50,800,"Administracion de Servicios en Red"),
 c.drawString(50,775,"Practica 2"),
-c.drawString(50,750,"Christian Fernan Reyes Gonzalez    4CM13"),
+c.drawString(50,750,"Brayam Jeovanny Torres Martinez    4CM13"),
 c.drawString(50,725,"Administracion de Contabilidad")
 c.drawImage("PaquetesUnicast.png", 0, 500, width=275,height=175),
 c.drawImage("PaquetesRecibidos.png", 300, 500, width=275,height=175)
