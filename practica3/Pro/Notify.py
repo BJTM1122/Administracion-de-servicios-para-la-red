@@ -8,10 +8,10 @@ rrdpath = '/home/jeovanny/PycharmProjects/Introduccion_SNMP/03-Practica3/RRD/'
 imgpath = '/home/jeovanny/PycharmProjects/Introduccion_SNMP/03-Practica3/IMG/'
 fname = 'trend.rrd'
 
-mailsender = "bj.tmartinez1122@gmail.com"
-mailreceip = "brayam.torresgi@gmail.com"
+mailsender = "brayam.torresgi@gmail.com"
+mailreceip = "dummycuenta3@gmail.com"
 mailserver = 'smtp.gmail.com: 587'
-password = '(Mariaantonieta11)'
+password = 'hqcekousieqmtyfc'
 
 def send_alert_attached(subject,servicio):
     """ Envía un correo electrónico adjuntando la imagen en IMG
